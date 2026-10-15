@@ -1,0 +1,127 @@
+{
+  "name": "Insyra Approval Workflow (Example)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "insyra-approval-example",
+        "authentication": "headerAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "webhook_node",
+      "name": "Webhook",
+      "webhookId": "REDACTED_WEBHOOK_ID",
+      "credentials": {}
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentURL": "https://docs.google.com/document/d/REPLACE_WITH_GOOGLE_DOC_ID/edit",
+        "actionsUi": {
+          "actionFields": [
+            {
+              "action": "insert",
+              "text": "={{ $json.body.document_text }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.googleDocs",
+      "typeVersion": 2,
+      "position": [
+        448,
+        0
+      ],
+      "id": "google_docs_node",
+      "name": "Update a document",
+      "credentials": {}
+    },
+    {
+      "parameters": {
+        "resource": "draft",
+        "subject": "={{ $('Webhook').first().json.body.email_subject }}",
+        "message": "={{ $('Webhook').first().json.body.email_body }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        672,
+        0
+      ],
+      "id": "gmail_node",
+      "name": "Create a draft",
+      "webhookId": "REDACTED_WEBHOOK_ID",
+      "credentials": {}
+    },
+    {
+      "parameters": {
+        "operation": "removeItemsSeenInPreviousExecutions",
+        "dedupeValue": "={{ $json.body.approval_id }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.removeDuplicates",
+      "typeVersion": 2,
+      "position": [
+        224,
+        0
+      ],
+      "id": "remove_duplicates_node",
+      "name": "Remove Duplicates"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Remove Duplicates",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update a document": {
+      "main": [
+        [
+          {
+            "node": "Create a draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Remove Duplicates": {
+      "main": [
+        [
+          {
+            "node": "Update a document",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "REDACTED_VERSION_ID",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "nodeGroups": [],
+  "id": "REDACTED_WORKFLOW_ID",
+  "tags": []
+}
