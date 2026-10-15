@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: insyra-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: DEMO_READ_ONLY
+        value: "true"
+      - key: APPROVAL_PROVIDER_MODE
+        value: "local"
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false

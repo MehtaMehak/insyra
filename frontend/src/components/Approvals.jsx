@@ -1,6 +1,6 @@
 import React from 'react'
 
-const API_BASE = 'http://127.0.0.1:8001'
+import { API_BASE } from '../config/api'
 
 function formatDate(value) {
   if (!value) return 'Not available'

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { API_BASE } from '../config/api'
+
 export default function CsvUpload({ selectedFile, onFileSelect, fileInputRef }) {
   const [isDragging, setIsDragging] = React.useState(false)
   const [isUploading, setIsUploading] = React.useState(false)
@@ -41,7 +43,7 @@ export default function CsvUpload({ selectedFile, onFileSelect, fileInputRef }) 
       const formData = new FormData()
       formData.append('file', selectedFile, selectedFile.name)
 
-      const response = await fetch('http://127.0.0.1:8000/api/reviews/upload', {
+      const response = await fetch(`${API_BASE}/api/reviews/upload`, {
         method: 'POST',
         body: formData,
       })
