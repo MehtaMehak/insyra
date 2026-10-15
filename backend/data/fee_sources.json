@@ -1,0 +1,83 @@
+{
+  "collected_on": "2026-10-14",
+  "purpose": "Official Groww documentation for explaining brokerage, transaction charges, deductions, and other fees. Verified customer review confusion is provided only as context.",
+  "review_confusion_context": [
+    "Customer reviews mention being charged more than the advertised Rs 20 brokerage.",
+    "Customer reviews describe fees as hidden, unclear, or unexpectedly deducted.",
+    "Customer reviews mention confusion around brokerage, charges, deductions, and wallet balances."
+  ],
+  "official_sources": [
+    {
+      "source_id": "groww-pricing",
+      "organization": "Groww Invest Tech Private Limited",
+      "page_title": "Brokerage Charges & Pricing | Groww",
+      "url": "https://groww.in/pricing/",
+      "accessed_on": "2026-10-14",
+      "relevant_facts": [
+        "Equity brokerage is shown as Rs 20 or 0.1% per executed order, whichever is lower, with a minimum of Rs 5.",
+        "DP charges are shown for sell transactions, including depository and Groww components, with a Rs 0 Groww component for sale value below Rs 100 debit value.",
+        "Regulatory and statutory charges include STT, stamp duty, exchange transaction charge, SEBI turnover charge, DP charges, IPFT charge, and related charges.",
+        "GST of 18% applies on brokerage, DP charges, exchange transaction charges, IPFT, SEBI turnover charges, delayed payment charges, DDPI charges, KYC modification request charges, API charges, and auto square-off charges.",
+        "Auto square-off charges are listed at Rs 50 per position for open intraday positions squared off by the system.",
+        "Other charges listed include delayed payment charges of 0.05% per day, Pledge/Unpledge charges of Rs 20 per ISIN, and UPI mandate balance equity brokerage of 1% of order value with no maximum cap."
+      ],
+      "verified_excerpts": [
+        "Equity Brokerage: Rs 20 / 0.1% per executed order, whichever is lower, minimum Rs 5",
+        "DP charges (per sell transaction): Depository: Rs 3.5 (male) and Rs 3.25 (female), Groww: Rs 16.5, Rs 0 for less than 100 debit value",
+        "18% GST on Brokerage, DP charges, Exchange Transaction charges, IPFT, SEBI Turnover charges, Delayed payment charges, DDPI charges, KYC modification request charges, API charges and Auto Square-Off charges",
+        "Auto Square-off charges: Rs 50 per position for open intraday positions by system"
+      ],
+      "limitations": "Pricing may change; this records the page as accessed on 2026-10-14 and should be rechecked before making fee claims to customers."
+    },
+    {
+      "source_id": "groww-intraday-charges-help",
+      "organization": "Groww",
+      "page_title": "What are intraday charges?",
+      "url": "https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-pricing/what-are-intraday-charges",
+      "accessed_on": "2026-10-14",
+      "relevant_facts": [
+        "Intraday brokerage is Rs 20 or 0.1% of trade value per order, whichever is lower.",
+        "If brokerage per trade is less than Rs 5, the minimum charge is the lower of Rs 5 or 2.5% of trade value.",
+        "Intraday charges listed on the page include STT of 0.025% only on sell orders, stamp duty of 0.003% only on buy orders, exchange transaction charges, SEBI turnover charges, IPFT charge, and GST of 18%.",
+        "A charge of Rs 50 plus GST per position is deducted if open positions are not squared off before 3:20 PM."
+      ],
+      "verified_excerpts": [
+        "Brokerage: Rs 20 or 0.1% of trade value per order, whichever is lower. However, if the brokerage per trade is less than Rs 5, then the minimum charge will be the lower of Rs 5 or 2.5% of your trade value",
+        "STT (only sell): 0.025%",
+        "Stamp Duty (only buy): 0.003%",
+        "Exchange Transaction Charges (buy & sell): 0.00297% (NSE) or 0.00375% (BSE)",
+        "SEBI Turnover Charges (buy & sell): 0.0001%",
+        "Investor Protection Fund Trust Charge (buy & sell): 0.0001% (NSE)",
+        "GST: 18%",
+        "If you don't square off your open positions before 3:20 PM, a charge of Rs 50 + GST per position will be deducted from your Groww Balance."
+      ],
+      "limitations": "The page is specific to intraday charges and should not be treated as a complete description of all Groww charges."
+    },
+    {
+      "source_id": "groww-what-fees-help",
+      "organization": "Groww",
+      "page_title": "What fees does Groww charge?",
+      "url": "https://groww.in/help/payments-&-withdrawals/payments-charges/what-fees-does-groww-charge--58",
+      "accessed_on": "2026-10-14",
+      "relevant_facts": [
+        "Equity trading fee is either Rs 20 or 0.1% of trade value, whichever is lower, with a minimum charge of Rs 5.",
+        "SEBI guidelines state that brokerage charges for equity delivery trades cannot exceed 2.5% of trade value.",
+        "F&O trading has a flat fee of Rs 20 per order.",
+        "Additional charges such as regulatory fees, statutory charges, and penalties are not from Groww and are imposed by the exchange."
+      ],
+      "verified_excerpts": [
+        "Equity Trading: The fee is either Rs 20 or 0.1% of your trade value, whichever is lower. The minimum charge is Rs 5.",
+        "Regulatory Cap: According to SEBI guidelines, brokerage charges for equity delivery trades cannot exceed 2.5% of the trade value.",
+        "F&O Trading: A flat fee of Rs 20 per order.",
+        "Additional Charges: Other fees, like regulatory fees, statutory charges, and penalties, are not from Groww. These are imposed by the exchange."
+      ],
+      "limitations": "The page gives a summary and directs users to the pricing section for a detailed breakdown."
+    }
+  ],
+  "notes": [
+    "Accessed official Groww pages on 2026-10-14.",
+    "Only official Groww websites or help-center documentation is used for factual fee explanations.",
+    "Customer-review fee confusion is context only. Keyword candidates are not confirmed complaints.",
+    "No Groq call, frontend change, CSV upload, AI Insights, or Weekly Pulse change was made."
+  ]
+}

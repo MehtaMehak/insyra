@@ -1,0 +1,195 @@
+{
+  "summary": "Users report frequent hidden or unexpected fees, especially for brokerage, intraday trades, and mutual funds, leading to frustration and distrust.",
+  "themes": [
+    {
+      "theme": "Hidden brokerage and transaction fees",
+      "description": "Many reviewers mention that the app advertises zero brokerage but charges high fees for active traders, intraday trades, and cancelled orders.",
+      "sentiment": "negative",
+      "supporting_sources": [
+        "23",
+        "25"
+      ]
+    },
+    {
+      "theme": "Unclear fee disclosure",
+      "description": "Customers feel that fee structures are not transparently communicated, causing surprise deductions and confusion.",
+      "sentiment": "negative",
+      "supporting_sources": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "theme": "Customer support inadequacy",
+      "description": "Repeated complaints about unresponsive or unhelpful support when addressing fee disputes or account issues.",
+      "sentiment": "negative",
+      "supporting_sources": [
+        "16",
+        "17"
+      ]
+    },
+    {
+      "theme": "Account and withdrawal issues",
+      "description": "Users report difficulties withdrawing funds and unexpected deductions from their accounts.",
+      "sentiment": "negative",
+      "supporting_sources": [
+        "21",
+        "22"
+      ]
+    },
+    {
+      "theme": "App performance and reliability",
+      "description": "Some reviews highlight app crashes, updates causing problems, and poor execution of trades.",
+      "sentiment": "negative",
+      "supporting_sources": [
+        "1",
+        "4"
+      ]
+    }
+  ],
+  "verified_quotes": [
+    {
+      "quote": "Highly misleading fees. Groww's marketing implies \"zero brokerage,\" but that’s false for active traders.",
+      "date": "2026-08-13",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=0196e447-a8c8-4a43-9f8b-7a8868864177",
+      "review": "Highly misleading fees. Groww's marketing implies \"zero brokerage,\" but that’s false for active traders. My recent statement had ₹4,466 in total charges—and a staggering ₹2,076 was pure \"Groww Brokerage,\" plus ₹693 in DP/MIS fees. More than half the fees went directly to Groww, not the government! Their ₹20/order fee eats your profits alive. I strongly advise against using this for intraday.",
+      "verified": true
+    },
+    {
+      "quote": "I am concerned about the high brokerage charges for F&O trading on Groww.",
+      "date": "2026-09-07",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=b980e7ad-5517-4983-b9e3-8238fa6f8441",
+      "review": "I am concerned about the high brokerage charges for F&O trading on Groww. The brokerage cost becomes quite significant, especially for frequent option traders and small-volume trades. Please review your F&O brokerage charges and consider reducing them or introducing a zero/low-brokerage plan for F&O traders. Competitive brokerage charges would make Groww much more attractive for active traders. Kindly consider this feedback and let me know if there are any lower-brokerage plans currently avail",
+      "verified": true
+    },
+    {
+      "quote": "I reported several issues on this app and all I heard back from the customer support was to update/re-install the app.",
+      "date": "2026-08-04",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=3427bc10-29f3-48b8-8514-c848e20f5a1f",
+      "review": "I reported several issues on this app and all I heard back from the customer support was to update/re-install the app. It did not solve anything and I also had to redo all the indicators and settings which I had already set up. Also, all other broker apps are incorporating better features for more convenient trading and charge only Rs.10/order. But this app is getting worse and still charges Rs.20/order. So I'm actively planning on switching to a different broker app.",
+      "verified": true
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "Highly misleading fees. Groww's marketing implies \"zero brokerage,\" but that’s false for active traders.",
+      "date": "2026-08-13",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=0196e447-a8c8-4a43-9f8b-7a8868864177",
+      "review": "Highly misleading fees. Groww's marketing implies \"zero brokerage,\" but that’s false for active traders. My recent statement had ₹4,466 in total charges—and a staggering ₹2,076 was pure \"Groww Brokerage,\" plus ₹693 in DP/MIS fees. More than half the fees went directly to Groww, not the government! Their ₹20/order fee eats your profits alive. I strongly advise against using this for intraday.",
+      "verified": true
+    },
+    {
+      "quote": "I am concerned about the high brokerage charges for F&O trading on Groww.",
+      "date": "2026-09-07",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=b980e7ad-5517-4983-b9e3-8238fa6f8441",
+      "review": "I am concerned about the high brokerage charges for F&O trading on Groww. The brokerage cost becomes quite significant, especially for frequent option traders and small-volume trades. Please review your F&O brokerage charges and consider reducing them or introducing a zero/low-brokerage plan for F&O traders. Competitive brokerage charges would make Groww much more attractive for active traders. Kindly consider this feedback and let me know if there are any lower-brokerage plans currently avail",
+      "verified": true
+    },
+    {
+      "quote": "I reported several issues on this app and all I heard back from the customer support was to update/re-install the app.",
+      "date": "2026-08-04",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=3427bc10-29f3-48b8-8514-c848e20f5a1f",
+      "review": "I reported several issues on this app and all I heard back from the customer support was to update/re-install the app. It did not solve anything and I also had to redo all the indicators and settings which I had already set up. Also, all other broker apps are incorporating better features for more convenient trading and charge only Rs.10/order. But this app is getting worse and still charges Rs.20/order. So I'm actively planning on switching to a different broker app.",
+      "verified": true
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Highly misleading fees. Groww's marketing implies \"zero brokerage,\" but that’s false for active traders.",
+      "date": "2026-08-13",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=0196e447-a8c8-4a43-9f8b-7a8868864177",
+      "review": "Highly misleading fees. Groww's marketing implies \"zero brokerage,\" but that’s false for active traders. My recent statement had ₹4,466 in total charges—and a staggering ₹2,076 was pure \"Groww Brokerage,\" plus ₹693 in DP/MIS fees. More than half the fees went directly to Groww, not the government! Their ₹20/order fee eats your profits alive. I strongly advise against using this for intraday.",
+      "verified": true
+    },
+    {
+      "quote": "I am concerned about the high brokerage charges for F&O trading on Groww.",
+      "date": "2026-09-07",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=b980e7ad-5517-4983-b9e3-8238fa6f8441",
+      "review": "I am concerned about the high brokerage charges for F&O trading on Groww. The brokerage cost becomes quite significant, especially for frequent option traders and small-volume trades. Please review your F&O brokerage charges and consider reducing them or introducing a zero/low-brokerage plan for F&O traders. Competitive brokerage charges would make Groww much more attractive for active traders. Kindly consider this feedback and let me know if there are any lower-brokerage plans currently avail",
+      "verified": true
+    },
+    {
+      "quote": "I reported several issues on this app and all I heard back from the customer support was to update/re-install the app.",
+      "date": "2026-08-04",
+      "rating": "1",
+      "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=3427bc10-29f3-48b8-8514-c848e20f5a1f",
+      "review": "I reported several issues on this app and all I heard back from the customer support was to update/re-install the app. It did not solve anything and I also had to redo all the indicators and settings which I had already set up. Also, all other broker apps are incorporating better features for more convenient trading and charge only Rs.10/order. But this app is getting worse and still charges Rs.20/order. So I'm actively planning on switching to a different broker app.",
+      "verified": true
+    }
+  ],
+  "fee_confusion": {
+    "detected": true,
+    "candidate_count": 206,
+    "unique_candidate_texts": 206,
+    "candidates": [
+      {
+        "date": "2026-09-17",
+        "review": "I have been using Groww for around 5 years, and based on my overall experience, I believe the app is quite good for investing in shares and market analysis. However, I am giving 1 star because of my recent experience with customer support. Despite being a long-time user, I was disappointed with the way my issue was handled and the support I received. For F&O trading, I also feel Groww is not very suitable due to higher brokerage charges and issues related to auto square-off/auto-sequencing. So,",
+        "rating": "1",
+        "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=ac19bed4-f048-48dc-8b30-d8f9bf67c529",
+        "matched_terms": [
+          "charges",
+          "brokerage"
+        ]
+      },
+      {
+        "date": "2026-09-24",
+        "review": "Extremely disappointing app. If you value your money, think twice before using Groww. Their support is frustrating, charges are poorly explained, and unexpected charges can leave you confused. I’ve been investing/trading for 5+ years and started my investment journey at 16, inspired by Warren Buffett. I have invested ₹3+ lakh through Groww and am extremely frustrated with their service. I don’t even want to give 1 star because they don’t deserve it. I’d rather pay AMC elsewhere than use Groww😡",
+        "rating": "1",
+        "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=3cd0287a-1a69-4d16-9b0d-93f05b98b4f5",
+        "matched_terms": [
+          "charges",
+          "amc"
+        ]
+      },
+      {
+        "date": "2026-09-07",
+        "review": "I am concerned about the high brokerage charges for F&O trading on Groww. The brokerage cost becomes quite significant, especially for frequent option traders and small-volume trades. Please review your F&O brokerage charges and consider reducing them or introducing a zero/low-brokerage plan for F&O traders. Competitive brokerage charges would make Groww much more attractive for active traders. Kindly consider this feedback and let me know if there are any lower-brokerage plans currently avail",
+        "rating": "1",
+        "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=b980e7ad-5517-4983-b9e3-8238fa6f8441",
+        "matched_terms": [
+          "charges",
+          "brokerage",
+          "cost"
+        ]
+      },
+      {
+        "date": "2026-08-24",
+        "review": "The reason behind giving it one star is today for intra day trade i purchased muthoot finance shares I was in good profit and market closes at 3:20 the rate i purchased was 3187.50 and I was on profit it squared it off automatically at 3189 and lowered my profit and the actual price of stock while it closed was 3199.80 so who is responsible for my loss u should give extra time to sell and why will u execute square off i appeal to all take out your investment from this app charges is high also.",
+        "rating": "1",
+        "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=efa97241-6052-4628-bd4f-c89ea57ee6fd",
+        "matched_terms": [
+          "charges"
+        ]
+      },
+      {
+        "date": "2026-09-19",
+        "review": "Very Disappointing Experience with Groww I bought shares for ₹200 and held them for 5–6 days. When the share price reached ₹220, I sold them expecting to receive my profit. However, after the transaction and deductions, I received only around ₹177 in my wallet. I understand that taxes and other charges may apply, but the deductions were very disappointing and were not clear enough to me. I bought at ₹200, sold at ₹220 after 5–6 days, yet the final amount I received was even lower than my origi",
+        "rating": "1",
+        "source": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=fcb0057c-a76c-492e-b953-eda2273139ef",
+        "matched_terms": [
+          "charges"
+        ]
+      }
+    ],
+    "severity": "high",
+    "explanation": "Fee-related terms were used only as candidates for possible fee confusion. Matches may appear in positive, neutral, or questioning contexts and are not assumed to be genuine fee complaints.",
+    "ai_summary": "The majority of negative feedback centers on hidden or poorly explained fees, with users reporting unexpected charges for brokerage, intraday trades, and mutual fund transactions, leading to a perception of deceptive pricing."
+  },
+  "review_count": 300,
+  "metadata": {
+    "max_themes": 5,
+    "max_quotes": 3,
+    "total_input_reviews": 300,
+    "non_empty_reviews": 300,
+    "model": "openai/gpt-oss-20b"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "title": "Groww Fee Explainer",
+  "format": "json",
+  "last_checked_date": "2026-10-14",
+  "sample_context": {
+    "analysis_sample_reviews": 300,
+    "fee_keyword_candidates": "206",
+    "candidate_note": "Fee-related phrases are keyword candidates, not confirmed complaints."
+  },
+  "explanation_bullets": [
+    {
+      "id": 1,
+      "text": "Equity brokerage is shown as Rs 20 or 0.1% per executed order, whichever is lower, with a minimum of Rs 5.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "DP charges are shown for sell transactions, including depository and Groww components, with a Rs 0 Groww component for sale value below Rs 100 debit value.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Regulatory and statutory charges include STT, stamp duty, exchange transaction charge, SEBI turnover charge, DP charges, IPFT charge, and related charges.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "GST of 18% applies on brokerage, DP charges, exchange transaction charges, IPFT, SEBI turnover charges, delayed payment charges, DDPI charges, KYC modification request charges, API charges, and auto square-off charges.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Auto square-off charges are listed at Rs 50 per position for open intraday positions squared off by the system.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Other charges listed include delayed payment charges of 0.05% per day, Pledge/Unpledge charges of Rs 20 per ISIN, and UPI mandate balance equity brokerage of 1% of order value with no maximum cap.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    }
+  ],
+  "bullets": [
+    {
+      "id": 1,
+      "text": "Equity brokerage is shown as Rs 20 or 0.1% per executed order, whichever is lower, with a minimum of Rs 5.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "DP charges are shown for sell transactions, including depository and Groww components, with a Rs 0 Groww component for sale value below Rs 100 debit value.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Regulatory and statutory charges include STT, stamp duty, exchange transaction charge, SEBI turnover charge, DP charges, IPFT charge, and related charges.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "GST of 18% applies on brokerage, DP charges, exchange transaction charges, IPFT, SEBI turnover charges, delayed payment charges, DDPI charges, KYC modification request charges, API charges, and auto square-off charges.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Auto square-off charges are listed at Rs 50 per position for open intraday positions squared off by the system.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Other charges listed include delayed payment charges of 0.05% per day, Pledge/Unpledge charges of Rs 20 per ISIN, and UPI mandate balance equity brokerage of 1% of order value with no maximum cap.",
+      "supporting_sources": [
+        "groww-pricing"
+      ]
+    }
+  ],
+  "official_source_urls": [
+    "https://groww.in/pricing/",
+    "https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-pricing/what-are-intraday-charges",
+    "https://groww.in/help/payments-&-withdrawals/payments-charges/what-fees-does-groww-charge--58"
+  ],
+  "source_urls": [
+    "https://groww.in/pricing/",
+    "https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-pricing/what-are-intraday-charges",
+    "https://groww.in/help/payments-&-withdrawals/payments-charges/what-fees-does-groww-charge--58"
+  ],
+  "source_references": {
+    "groww-pricing": "https://groww.in/pricing/",
+    "groww-intraday-charges-help": "https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-pricing/what-are-intraday-charges",
+    "groww-what-fees-help": "https://groww.in/help/payments-&-withdrawals/payments-charges/what-fees-does-groww-charge--58"
+  },
+  "sources": [
+    {
+      "source_id": "groww-pricing",
+      "title": "Brokerage Charges & Pricing | Groww",
+      "url": "https://groww.in/pricing/",
+      "accessed_on": "2026-10-14"
+    },
+    {
+      "source_id": "groww-intraday-charges-help",
+      "title": "What are intraday charges?",
+      "url": "https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-pricing/what-are-intraday-charges",
+      "accessed_on": "2026-10-14"
+    },
+    {
+      "source_id": "groww-what-fees-help",
+      "title": "What fees does Groww charge?",
+      "url": "https://groww.in/help/payments-&-withdrawals/payments-charges/what-fees-does-groww-charge--58",
+      "accessed_on": "2026-10-14"
+    }
+  ],
+  "official_sources": [
+    {
+      "source_id": "groww-pricing",
+      "title": "Brokerage Charges & Pricing | Groww",
+      "url": "https://groww.in/pricing/",
+      "accessed_on": "2026-10-14"
+    },
+    {
+      "source_id": "groww-intraday-charges-help",
+      "title": "What are intraday charges?",
+      "url": "https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-pricing/what-are-intraday-charges",
+      "accessed_on": "2026-10-14"
+    },
+    {
+      "source_id": "groww-what-fees-help",
+      "title": "What fees does Groww charge?",
+      "url": "https://groww.in/help/payments-&-withdrawals/payments-charges/what-fees-does-groww-charge--58",
+      "accessed_on": "2026-10-14"
+    }
+  ],
+  "limitations": [
+    "Only official Groww website and help-center documentation is used for factual fee explanations.",
+    "Customer-reported confusion provides context only and is not treated as verified evidence.",
+    "Fee schedules, order types, taxes, and regulatory charges can change; confirm current charges on Groww's official pages before making customer-facing statements.",
+    "Pricing may change; this records the page as accessed on 2026-10-14 and should be rechecked before making fee claims to customers.",
+    "The page is specific to intraday charges and should not be treated as a complete description of all Groww charges.",
+    "The page gives a summary and directs users to the pricing section for a detailed breakdown."
+  ],
+  "customer_context": "Fee-related phrases appeared in 206 of the 300 sampled reviews. These keyword matches indicate possible fee confusion but are not confirmed complaints."
+}

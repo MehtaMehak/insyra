@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# n8n webhook metadata
+n8n-webhook-info*
+
+# Approval runtime data
+backend/data/approvals.json
+backend/data/approved_notes/
+
+# Raw public reviews remain local
+backend/data/groww_reviews.csv
+
+# Python virtual environments and bytecode
+backend/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+
+# Submission evidence screenshots and local-only artifacts
+submission-evidence/

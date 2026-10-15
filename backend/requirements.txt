@@ -1,0 +1,7 @@
+# Backend dependencies for Insyra.
+# Direct runtime dependencies only. Standard library modules are also used.
+fastapi==0.143.0
+uvicorn==0.54.0
+mcp==2.3.0
+groq==1.7.0
+python-dotenv==1.2.4
