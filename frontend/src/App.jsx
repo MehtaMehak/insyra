@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { API_BASE } from './config/api'
 import Sidebar from './components/Sidebar.jsx'
 import SummaryCards from './components/SummaryCards.jsx'
 import CsvUpload from './components/CsvUpload.jsx'
@@ -16,7 +17,7 @@ function App() {
   useEffect(() => {
     let isActive = true
 
-    fetch('http://127.0.0.1:8000/health')
+    fetch(`${API_BASE}/health`)
       .then(async (response) => {
         if (!response.ok) {
           throw new Error('Backend request failed')
